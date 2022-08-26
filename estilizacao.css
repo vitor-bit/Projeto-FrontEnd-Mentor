@@ -1,0 +1,56 @@
+
+body{
+    background-image: url(fundo.svg);   
+    
+}
+header{
+    padding: 40px;
+    font-size: 30px;
+    margin: 20px 40px; 
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400 600;
+    color: rgb(175, 53, 175);
+}
+.conteudo{
+    
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+ 
+li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 20px;
+}
+button{
+    margin-left: 65%;
+    border-radius: 20px;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    color: blueviolet;  
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+footer{
+    padding: 20px;
+    margin-top: 30px;
+}
+a{ 
+    padding: 10px;
+    text-decoration: 0;
+    color: black;
+}
+.links{
+    margin-top: 30px;
+    margin-left: 60%;
+}
